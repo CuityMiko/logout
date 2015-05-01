@@ -4,4 +4,3 @@ chrome.browserAction.onClicked.addListener(function () {
   xhr.send(null);
 });
 
-console.log('logout.js')

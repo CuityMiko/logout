@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "淘宝退出",
+  "description": "添加淘宝退出按钮到浏览器窗口，方便测试",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": {
+      "19": "images/icon19.png",
+      "38": "images/icon38.png"
+    }
+  },
+
+  "background": {
+    "scripts": ["js/logout.js"],
+    "persistent": false
+  },
+
+  "permissions": ["<all_urls>"]
+}
